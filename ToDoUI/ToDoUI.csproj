@@ -78,6 +78,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PageView.feature</DependentUpon>
     </Compile>
+    <Compile Include="Tests\Features\SpecFlowFeature1.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+    </Compile>
     <Compile Include="Tests\Models\PageObjects\Base\ProjBase.cs" />
     <Compile Include="Tests\StepDefinition\PageViewSteps.cs" />
     <Compile Include="UnitTest1.cs" />
@@ -99,6 +104,10 @@
     <None Include="Tests\Features\PageView.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>PageView.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Tests\Features\SpecFlowFeature1.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
