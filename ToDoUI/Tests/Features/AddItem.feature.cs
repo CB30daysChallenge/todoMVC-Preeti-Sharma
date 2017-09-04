@@ -17,13 +17,13 @@ namespace ToDoUI.Tests.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.2.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Add Item", SourceFile="Tests\\Features\\SpecFlowFeature1.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Add Item", SourceFile="Tests\\Features\\AddItem.feature", SourceLine=0)]
     public partial class AddItemFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "SpecFlowFeature1.feature"
+#line 1 "AddItem.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
