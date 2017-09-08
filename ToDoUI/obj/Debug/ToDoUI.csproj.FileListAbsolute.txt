@@ -31,6 +31,7 @@ C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Default.srprofile
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\ToDoUI.dll.config
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\ToDoUI.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\ToDoUI.pdb
+C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\CB.30DayChallenge.Framework.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Newtonsoft.Json.dll
@@ -41,6 +42,8 @@ C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\TechTalk.SpecRun.Common.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\TechTalk.SpecRun.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\WebDriver.dll
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\WebDriver.Support.dll
+C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\CB.30DayChallenge.Framework.pdb
+C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\CB.30DayChallenge.Framework.dll.config
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\Newtonsoft.Json.xml
