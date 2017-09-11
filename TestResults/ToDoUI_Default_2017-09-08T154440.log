@@ -1,0 +1,91 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Upskilling\to-do-mvc\ToDoUI\bin\Debug\ToDoUI.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ToDoUI/Default - 
+#1: Default - 
+#2: ToDoUI - 
+#3: Add Item - 
+#4: add item - TestAssembly:ToDoUI/Feature:Add+Item/Scenario:add+item
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ToDoUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\preeti.sharma\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I load the page http://todomvc.com/examples/react/#/
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:When I type some text inside the textbox
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I press enter
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see the text added as a list item
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I see a checkbox added in front of the list item
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 3.674963 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I load the page http://todomvc.com/examples/react/#/
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:When I type some text inside the textbox
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I press enter
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see the text added as a list item
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I see a checkbox added in front of the list item
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 2.9406186 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I load the page http://todomvc.com/examples/react/#/
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:When I type some text inside the textbox
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I press enter
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see the text added as a list item
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I see a checkbox added in front of the list item
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 2.9412856 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

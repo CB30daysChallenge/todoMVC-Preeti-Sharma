@@ -18,7 +18,7 @@ namespace ToDoUI.Tests.StepDefinition
         [When(@"I type some text inside the textbox")]
         public void WhenITypeSomeTextInsideTheTextbox()
         {
-            ToDo = new ToDoPage(wd);
+            
             string itemtext = "item1";
             ToDo.EnterItem(itemtext);
         }
@@ -26,14 +26,14 @@ namespace ToDoUI.Tests.StepDefinition
         [When(@"I press enter")]
         public void WhenIPressEnter()
         {
-            ToDo = new ToDoPage(wd);
+           
             ToDo.PressReturn();
         }
 
         [Then(@"I see the text added as a list item")]
         public void ThenISeeTheTextAddedAsAListItem()
         {
-            ToDo = new ToDoPage(wd);
+           
             string addedtext = "item1";
             ToDo.AddedItem(addedtext);
         }
@@ -41,7 +41,7 @@ namespace ToDoUI.Tests.StepDefinition
         [Then(@"I see a checkbox added in front of the list item")]
         public void ThenISeeACheckboxAddedInFrontOfTheListItem()
         {
-            ToDo = new ToDoPage(wd);
+            
             ToDo.SeeCheckbox();
         }
 

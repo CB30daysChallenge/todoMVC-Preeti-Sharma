@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using ToDoUI.Tests.Models.PageObjects.Base;
+using NUnit.Framework;
 
 namespace ToDoUI.Tests.Models.PageObjects
 {
@@ -15,9 +16,7 @@ namespace ToDoUI.Tests.Models.PageObjects
         }
 
         public void NavigateToUrl()
-        {
-            
-           
+        {   
             wd.Navigate().GoToUrl("http://todomvc.com/examples/react/#/");
             Console.WriteLine("page loaded");
         }

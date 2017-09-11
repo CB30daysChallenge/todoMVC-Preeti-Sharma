@@ -10,7 +10,7 @@ namespace ToDoUI.Tests.StepDefinition
     [Binding]
     public sealed class Hooks : StepsBase
     {
-       
+
         [BeforeScenario]
         public void BeforeScenario()
         {
@@ -20,10 +20,15 @@ namespace ToDoUI.Tests.StepDefinition
         }
 
         [AfterScenario]
-        public void AfterScenario()
-        {
-            wd.Close();
-
-        }
+         public void AfterScenario()
+         {
+            try
+            {
+                wd.Close();
+            } catch
+            {
+                
+            }
+         }
     }
 }

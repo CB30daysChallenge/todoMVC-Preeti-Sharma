@@ -83,7 +83,6 @@
     <Compile Include="Tests\Models\Hooks.cs" />
     <Compile Include="Tests\StepDefinition\PageViewSteps.cs" />
     <Compile Include="Tests\Models\Base\StepsBase.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
