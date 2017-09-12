@@ -23,8 +23,20 @@ namespace ToDoUI.Tests.Models.PageObjects
 
         public void EnterItem(string itemtext)
         {
-            IWebElement textbox = wd.FindElement(By.XPath("/html/body/section/div/header/input"));
+            IWebElement textbox;
+            try
+            {
+                textbox = wd.FindElement(By.XPath("/html/body/section/div/header/input"));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("textbox not found");
+                throw (e);
+            }
             textbox.SendKeys(itemtext);
+
+
+
         }
 
         public void PressReturn()
