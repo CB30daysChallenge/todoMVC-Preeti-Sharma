@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TechTalk.SpecFlow;
+using log4net;
+using log4net.Config;
 
 namespace ToDoUI.Tests.Models.PageObjects.Base
 {
@@ -16,7 +18,7 @@ namespace ToDoUI.Tests.Models.PageObjects.Base
         {
             wd = _el;
         }
-        
+        public static ILog logger = LogManager.GetLogger(typeof(PageBase));
 
     }
 }

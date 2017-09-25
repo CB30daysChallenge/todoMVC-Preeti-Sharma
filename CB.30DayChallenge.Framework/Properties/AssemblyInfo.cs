@@ -10,7 +10,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
+// Let log4net know that it can look for configuration in the default application config file
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 [assembly: ComVisible(false)]
 
 [assembly: Guid("8d398de6-21d1-4932-86f3-d221b14f7b62")]

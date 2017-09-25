@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using ToDoUI.Tests.Models.PageObjects.Base;
 using NUnit.Framework;
+using log4net;
+using log4net.Config;
 
 namespace ToDoUI.Tests.Models.PageObjects
 {
@@ -27,15 +29,14 @@ namespace ToDoUI.Tests.Models.PageObjects
             try
             {
                 textbox = wd.FindElement(By.XPath("/html/body/section/div/header/input"));
+                logger.Info("textbox found!!");
             }
             catch (Exception e)
             {
-                Console.WriteLine("textbox not found");
+                logger.Info("textbox not found");
                 throw (e);
             }
             textbox.SendKeys(itemtext);
-
-
 
         }
 
