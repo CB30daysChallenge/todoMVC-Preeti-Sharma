@@ -33,7 +33,7 @@ namespace ToDoUI.Tests.Models.PageObjects
             }
             catch (Exception e)
             {
-                logger.Info("textbox not found");
+                logger.Error("textbox not found");
                 throw (e);
             }
             textbox.SendKeys(itemtext);

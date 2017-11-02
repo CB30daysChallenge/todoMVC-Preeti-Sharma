@@ -10,7 +10,13 @@ namespace ToDoUI.Tests.StepDefinition
     [Binding]
     public sealed class Hooks : StepsBase
     {
+        [BeforeTestRun]
 
+        public static void BeforeTestRun()
+        {
+            log4net.Config.XmlConfigurator.Configure();
+
+        }
         [BeforeScenario]
         public void BeforeScenario()
         {

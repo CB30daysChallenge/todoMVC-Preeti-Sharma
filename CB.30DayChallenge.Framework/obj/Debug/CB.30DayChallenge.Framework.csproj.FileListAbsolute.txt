@@ -13,6 +13,5 @@ C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\bin\Debug\log4net.xml
 C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\bin\Debug\Newtonsoft.Json.xml
-C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\obj\Debug\CB.30DayChallenge.Framework.csprojResolveAssemblyReference.cache
 C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\obj\Debug\CB.30DayChallenge.Framework.dll
 C:\Upskilling\to-do-mvc\CB.30DayChallenge.Framework\obj\Debug\CB.30DayChallenge.Framework.pdb
